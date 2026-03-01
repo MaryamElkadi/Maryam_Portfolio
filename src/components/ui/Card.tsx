@@ -1,6 +1,6 @@
 import { HTMLAttributes, forwardRef } from 'react';
 import { cn } from './Button';
-import { motion, HTMLMotionProps } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 export const Card = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElement>>(
     ({ className, ...props }, ref) => (
